@@ -1,0 +1,13 @@
+nilai = int(input("Masukan nilai : "))
+
+if nilai >= 90:
+     print("Garden A")
+
+elif nilai >= 80:
+     print("Garden B")
+
+elif nilai >= 70:
+     print("Garden C")
+
+else:
+     print("Garden D")

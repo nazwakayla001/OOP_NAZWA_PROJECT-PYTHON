@@ -1,0 +1,14 @@
+kesempatan = 3
+
+while kesempatan > 0:
+
+       username = input ("Username :")
+       password = input ("Password :")
+
+       if username == "admin" and password == "123" :
+           print("login berhasil ")
+           break
+       else:
+              kesempatan -= 1
+              print("Login gagal")
+              print("sisa kesempatan :", kesempatan)
