@@ -1,0 +1,10 @@
+suhu_terendah = None
+
+
+for i in range(1, 11):
+    suhu = int(input(f"Masukkan suhu hari ke-{i}: "))
+
+    if suhu_terendah is None or suhu < suhu_terendah:
+        suhu_terendah = suhu
+
+print("Suhu paling rendah adalah:", suhu_terendah)
